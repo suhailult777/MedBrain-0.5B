@@ -1,5 +1,6 @@
 """Minimal RAG loop: retrieve domain notes with ChromaDB, answer with MedBrain."""
 import chromadb
+import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 MODEL_ID = "suhailult777/MedBrain-0.5B"
